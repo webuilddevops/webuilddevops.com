@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="webuilddevops, We build devops">
+
+
+        <title>webuilddevops - Tags</title>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://webuilddevops.com/theme/css/pure.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+</head>
+
+<body>
+    <h1>Tags for webuilddevops</h1>        <li><a href="http://webuilddevops.com/tag/austin.html">austin</a> (1)</li>
+        <li><a href="http://webuilddevops.com/tag/devops.html">devops</a> (9)</li>
+        <li><a href="http://webuilddevops.com/tag/devopsdays.html">devopsdays</a> (2)</li>
+        <li><a href="http://webuilddevops.com/tag/mailing-list.html">mailing list</a> (1)</li>
+        <li><a href="http://webuilddevops.com/tag/podcasts.html">podcasts</a> (1)</li>
+        <li><a href="http://webuilddevops.com/tag/requiredreading.html">requiredreading</a> (13)</li>
+    <script>
+        var $top = $('.go-top');
+
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="webuilddevops, We build devops">
+
+
+        <title>log tossing // webuilddevops // We build devops</title>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://webuilddevops.com/theme/css/pure.css">
+    <link rel="stylesheet" href="http://webuilddevops.com/theme/css/pygments.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+    </script>
+</head>
+
+<body>
+<div class="pure-g-r" id="layout">
+    <div class="sidebar sidebar-article pure-u">
+        <header class="header-article">
+            <hgroup>
+                <a href="http://webuilddevops.com/author/looprock.html" title="See posts by looprock">
+                </a>
+                <h2 class="article-info">looprock</h2>
+                <small class="about-author"></small>
+                <h5>Published</h5>
+                <p>Tue 02 June 2015</p>
+                <a href="/">&larr;Home</a>
+            </hgroup>
+        </header>
+    </div>
+    <div class="pure-u">
+        <div class="content">
+            <section class="post">
+                <header class="post-header">
+                    <h1>log tossing</h1>
+                        <p class="post-meta">
+                            // under                         </p>
+                </header>
+            </section>
+            <div class="section" id="ohai">
+<h2>Ohai</h2>
+<p>Welcome to webuilddevops' first technical post. I've been trying to
+generate some decent references via the 'Required Reading' posts, but
+hope to produce some informative original content regarding how we
+manage systems and the through processes that leads us to those
+decisions as well. This is my first installment of what I hope to make
+into a series.</p>
+</div>
+<div class="section" id="tonight-we-re-gonna-party-it-likes-it-s-2004">
+<h2>Tonight we're gonna party&nbsp;it likes it's 2004..</h2>
+<p>When I started at my current company as a lowly sysadmin (~senior~), I
+noticed a disturbing trend. It seemed most of my day was consumed with
+either pushing software updates (which I'll be covering at a later date)
+and schlepping logs from servers to developers. I'm a proponent of
+cutting operations out of any process where it doesn't add any value,
+and while we should be looking at logs in the event of a failure, having
+o copy those to a developer is no 'value add' process. Enter syslog...</p>
+<p>Come to find out, I wasn't the visionary I thought I was, and not only
+did we have a syslog server, but it was even running rsyslog, not the
+stock redhat syslog everyone had come to know and loath. Apparently we'd
+only been using it for network device logging, but I just needed to
+hrow up apache in front of it and I could let developers&nbsp;log to their
+hearts content and read/download from their browsers! I immediately
+started working on a spec for our logging process. I pointed people at
+RFC5424. I specified facilities. I even wrote sample logback
+configurations to get our java developers&nbsp;on the road to success. This
+was going to be <em>awesome</em>! With everything lined up, I threw on the
+switch on some of our services that were configured properly, and ....
+blew up the syslog server. Well, more specifically, I seriously
+underestimated the space I needed and filled up the partition syslog was
+archiving to. So after a bit of resizing and talking down some people
+who's weekend on-call rotations I'd ruined, we fixed the sizing issue,
+added historical log compression (at this point we still haven't needed
+o do purges) and we were good! Well, we were better anyway.</p>
+</div>
+<div class="section" id="you-can-t-always-get-what-you-want">
+<h2>You can't always get what you want</h2>
+<p>Let me tell you, when requests to copy logs and/or get access to servers
+dried up, I was thrilled. However it wasn't that long before request
+volume was superseded by request complexity. People were complaining
+hat the large logs were taking too long to load/download, so we split
+logs by hour on the server side, but then people were complaining that
+hey needed to go through multiple logs to see entire event streams.
+Also, many services were hosted on multiple servers behind a load
+balancer so people often needed to traverse multiple server directories
+on top of multiple hour directories. There were also naming
+discrepancies where the some things were posting to the syslog server as
+FQDN, and others the short hostname, so people were often confused and
+couldn't find the logs they were looking for.&nbsp; We'd crossed over the
+hreshold of people not even knowing they needed something to them
+demanding specific requirements. These were all decent and logical
+requests mind you, but I wasn't quite prepared for them, nor was i sure
+how to tackle them.</p>
+<p>Apparently I wasn't the only person thinking about this domain space and
+running into issues. After a little research I came across this thing
+called <a class="reference external" href="http://logstash.net/">logstash</a>. Now, alone this was pretty
+cool, but some people had been doing some interesting work using
+logstash as a transport to get logs into elasticsearch.</p>
+<p>ELK FTW</p>
+<p>Graylog2</p>
+</div>
+
+            <div class="hr"></div>
+            <a href="#" class="go-top">Go Top</a>
+<footer class="footer">
+    <p>&copy; webuilddevops &ndash;
+        Built with <a href="https://github.com/PurePelicanTheme/pure">Pure Theme</a>
+        for <a href="http://blog.getpelican.com/">Pelican</a>
+    </p>
+</footer>        </div>
+    </div>
+</div>
+    <script>
+        var $top = $('.go-top');
+
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
+</body>
+</html>
