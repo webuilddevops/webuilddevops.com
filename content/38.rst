@@ -1,0 +1,9 @@
+cloudstack
+##########
+:date: 2015-01-19 03:33
+:author: looprock
+:category: Uncategorized
+:slug: 38
+:status: draft
+
+describe rational for going w/ cloudstack

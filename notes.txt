@@ -1,0 +1,9 @@
+# i'm using the pure theme for pelican: https://github.com/PurePelicanTheme/pure
+you'll also need to install the slideshare plugin manually. The whole pip install thing is a lie!: https://github.com/looprock/pelican_slideshare
+
+you'll also need these:
+pip install pelican-youtube
+pip install pelican-vimeo
+
+pelican -t pure content
+cd output && python -m pelican.server

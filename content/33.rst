@@ -1,0 +1,9 @@
+#ourmonitoringsucks
+###################
+:date: 2015-01-19 03:28
+:author: looprock
+:category: Uncategorized
+:slug: 33
+:status: draft
+
+placeholder describing monitoring strategies
