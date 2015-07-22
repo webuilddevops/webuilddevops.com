@@ -36,6 +36,7 @@ SOCIAL = (
     ('user', 'https://webuilddevops.com/pages/about.html'),
     ('book', 'https://webuilddevops.com/pages/resources.html'),
     ('twitter-square', 'https://twitter.com/webuilddevops'),
+    ('rss-square', 'https://webuilddevops.com/feeds/all.rss.xml'),
 )
 
 DEFAULT_PAGINATION = 10
