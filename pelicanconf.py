@@ -5,11 +5,12 @@ from __future__ import unicode_literals
 AUTHOR = u'Douglas Land'
 SITENAME = u'webuilddevops'
 SITEURL = 'http://webuilddevops.com'
-COVER_IMG_URL = 'snake-40427_640.png'
-PROFILE_IMAGE_URL = 'snake-40427_640.png'
+COVER_IMG_URL = 'http://webuilddevops.com/images/snake-40427_640.png'
+PROFILE_IMAGE_URL = 'http://webuilddevops.com/images/snake-40427_640.png'
 TAGLINE = 'We build devops'
 
 PATH = 'content'
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'America/Chicago'
 
