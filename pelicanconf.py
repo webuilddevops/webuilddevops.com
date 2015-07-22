@@ -32,7 +32,6 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (
     ('user', 'about.html'),
     ('book', 'resources.html'),
-    ('github', 'https://github.com/looprock/'),
     ('twitter-square', 'https://twitter.com/webuilddevops'),
 )
 
