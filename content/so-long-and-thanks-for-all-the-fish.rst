@@ -15,6 +15,7 @@ highly recommend it. Here's my small contribution:
 
 `Devops in a brownfields
 environment <http://www.slideshare.net/DouglasLand/devops-in-a-brownfields-environment-47805652>`__
+
 .. slideshare:: kOIouGjZfqb8PL
 
 Enjoy!
