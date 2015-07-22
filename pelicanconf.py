@@ -30,8 +30,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 # Social widget
 SOCIAL = (
-    ('user', 'about.html'),
-    ('book', 'resources.html'),
+    ('user', 'https://webuilddevops.com/pages/about.html'),
+    ('book', 'https://webuilddevops.com/pages/resources.html'),
     ('twitter-square', 'https://twitter.com/webuilddevops'),
 )
 
