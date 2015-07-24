@@ -4,9 +4,9 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Douglas Land'
 SITENAME = u'webuilddevops'
-SITEURL = 'http://webuilddevops.com'
-COVER_IMG_URL = 'http://webuilddevops.com/images/snake-40427_640.png'
-PROFILE_IMAGE_URL = 'http://webuilddevops.com/images/snake-40427_640.png'
+SITEURL = 'https://webuilddevops.com'
+COVER_IMG_URL = 'images/snake-40427_640.png'
+PROFILE_IMAGE_URL = 'images/snake-40427_640.png'
 TAGLINE = 'We build devops'
 
 PATH = 'content'
@@ -33,16 +33,16 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 # Social widget
 SOCIAL = (
-    ('user', 'https://webuilddevops.com/pages/about.html'),
-    ('book', 'https://webuilddevops.com/pages/resources.html'),
+    ('user', 'pages/about.html'),
+    ('book', 'pages/resources.html'),
     ('twitter-square', 'https://twitter.com/webuilddevops'),
-    ('rss-square', 'https://webuilddevops.com/feeds/all.rss.xml'),
+    ('rss-square', 'feeds/all.rss.xml'),
 )
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = False
 
 PLUGINS = [
     'pelican_youtube',

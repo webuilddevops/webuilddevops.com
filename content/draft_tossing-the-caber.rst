@@ -1,9 +1,10 @@
-log tossing
+Tossing the caber
 ###########
 :date: 2015-06-02 15:43
 :author: looprock
 :category: adventuresinserversitting
-:slug: 31
+:tags: devops, adventuresinserversitting
+:slug: tossing-the-caber
 :status: draft
 
 Ohai
@@ -51,7 +52,7 @@ You can't always get what you want
 Let me tell you, when requests to copy logs and/or get access to servers
 dried up, I was thrilled. However it wasn't that long before request
 volume was superseded by request complexity. People were complaining
-hat the large logs were taking too long to load/download, so we split
+that the large logs were taking too long to load/download, so we split
 logs by hour on the server side, but then people were complaining that
 hey needed to go through multiple logs to see entire event streams.
 Also, many services were hosted on multiple servers behind a load
@@ -60,7 +61,7 @@ on top of multiple hour directories. There were also naming
 discrepancies where the some things were posting to the syslog server as
 FQDN, and others the short hostname, so people were often confused and
 couldn't find the logs they were looking for.  We'd crossed over the
-hreshold of people not even knowing they needed something to them
+threshold of people not even knowing they needed something to them
 demanding specific requirements. These were all decent and logical
 requests mind you, but I wasn't quite prepared for them, nor was i sure
 how to tackle them.
@@ -69,7 +70,9 @@ Apparently I wasn't the only person thinking about this domain space and
 running into issues. After a little research I came across this thing
 called `logstash <http://logstash.net/>`__. Now, alone this was pretty
 cool, but some people had been doing some interesting work using
-logstash as a transport to get logs into elasticsearch.
+logstash as a transport to get logs into elasticsearch, and from there I
+found a project called kibana, which provided a rather slick interface 
+to be able to query and graph those logs. 
 
 ELK FTW
 

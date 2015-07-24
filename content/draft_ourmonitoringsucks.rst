@@ -2,8 +2,9 @@
 ###################
 :date: 2015-01-19 03:28
 :author: looprock
-:category: Uncategorized
-:slug: 33
+:category: adventuresinserversitting
+:tags: devops, adventuresinserversitting
+:slug: ourmonitoringsucks
 :status: draft
 
 placeholder describing monitoring strategies

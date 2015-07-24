@@ -3,7 +3,8 @@ Unpinionated software
 :date: 2015-05-07 05:38
 :author: looprock
 :category: adventuresinserversitting
-:slug: 78
+:tags: devops, adventuresinserversitting
+:slug: unpinionated-software
 :status: draft
 
 http://progrium.com/blog/2014/08/20/consul-service-discovery-with-docker/
