@@ -2,8 +2,8 @@ devopsweekly
 ############
 :date: 2014-06-16 05:17
 :author: looprock
-:category: Uncategorized
-:tags: devops, mailing list
+:category: resources
+:tags: devops, mailing list, resources
 :slug: devopsweekly
 :status: published
 
