@@ -2,6 +2,7 @@ Resources
 #########
 :date: 2014-06-16 05:24
 :author: looprock
+:category: resources
 :slug: resources
 :status: published
 
