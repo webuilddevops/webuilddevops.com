@@ -3,7 +3,7 @@ Tossing the caber
 :date: 2015-06-02 15:43
 :author: looprock
 :category: adventuresinserversitting
-:tags: devops, adventuresinserversitting
+:tags: adventuresinserversitting, devops
 :slug: tossing-the-caber
 :status: draft
 

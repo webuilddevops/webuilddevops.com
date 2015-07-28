@@ -25,8 +25,10 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+DISPLAY_CATEGORIES_ON_MENU = True
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
+#MENUITEMS = (('Pelican', 'http://getpelican.com/'),
+OFF = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
          ('You can modify those links in your config file', '#'),)

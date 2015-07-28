@@ -3,7 +3,7 @@ code vs config
 :date: 2015-01-19 03:30
 :author: looprock
 :category: adventuresinserversitting
-:tags: devops
+:tags: adventuresinserversitting, devops
 :slug: code-vs-config
 :status: draft
 
