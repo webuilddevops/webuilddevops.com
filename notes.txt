@@ -7,3 +7,5 @@ pip install pelican-vimeo
 
 pelican -t pure content
 cd output && python -m pelican.server
+
+the 'real' server runs 'make publish' so you can use distict values for pelican config vs publish config
