@@ -51,3 +51,5 @@ PLUGINS = [
     'pelican_vimeo',
     'pelican_slideshare',
 ]
+
+THEME = "pure"
