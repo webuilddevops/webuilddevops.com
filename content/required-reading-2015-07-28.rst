@@ -5,7 +5,7 @@ Required Reading – 2015-07-28
 :category: requiredreading
 :tags: devops, requiredreading
 :slug: required-reading-2015-07-28
-:status: draft
+:status: published
 
 http://www.tomas.cat/blog/en/cassandra-frequent-mistakes
 
