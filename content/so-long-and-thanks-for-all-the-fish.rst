@@ -2,7 +2,7 @@ Devops Days Austin: So long and thanks for all the fish...
 ##########################################################
 :date: 2015-05-06 04:04
 :author: looprock
-:category: devopsdays
+:category: miscellaneous
 :tags: austin, devops, devopsdays
 :slug: so-long-and-thanks-for-all-the-fish
 :status: published

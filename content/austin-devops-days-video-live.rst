@@ -2,8 +2,8 @@ Austin Devops Days Video Live
 #############################
 :date: 2015-05-22 04:44
 :author: looprock
-:category: devopsdays
-:tags: devops, devopsdays
+:category: miscellaneous
+:tags: devops, devopsdays, austin
 :slug: austin-devops-days-video-live
 :status: published
 
