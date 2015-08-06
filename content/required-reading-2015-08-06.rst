@@ -5,7 +5,7 @@ Required Reading – 2015-08-06
 :category: requiredreading
 :tags: devops, requiredreading
 :slug: required-reading-2015-08-06
-:status: draft
+:status: published
 
 
 http://sirupsen.com/production-docker/
