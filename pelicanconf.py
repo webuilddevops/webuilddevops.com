@@ -7,7 +7,7 @@ SITENAME = u'webuilddevops'
 SITEURL = 'https://webuilddevops.com'
 COVER_IMG_URL = 'https://webuilddevops.com/images/snake-40427_640.png'
 PROFILE_IMAGE_URL = 'https://webuilddevops.com/images/snake-40427_640.png'
-TAGLINE = 'We build devops'
+TAGLINE = 'We build DevOps'
 
 PATH = 'content'
 STATIC_PATHS = ['images']
