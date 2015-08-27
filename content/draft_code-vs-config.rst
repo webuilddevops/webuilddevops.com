@@ -135,7 +135,7 @@ coolvastthing.plugin
 | stopservice ${PRODUCT} ${PID}
 | portdie ${TESTPORT}
 | 
-| # Download: http://teamcity.vast.com/repository/download/bt666/14277:id/cool-vast-thing/target/cool-vast-thing-1.4.1-SNAPSHOT-14277-installer.tar.gz
+| # Download: http://teamcity.company.com/repository/download/bt666/14277:id/cool-vast-thing/target/cool-vast-thing-1.4.1-SNAPSHOT-14277-installer.tar.gz
 | FILEBASE="${TCNAME}-${RELEASE}-installer"
 | FILENAME="${FILEBASE}.tar.gz"
 | URLPATH="http://${TEAMCITY}/repository/download/${TCID}/${BUILD}:id/target/"
