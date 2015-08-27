@@ -94,7 +94,7 @@ The name of the file should be [function].plugin, R.E.:
 hello.plugin<br>
 hello()<br>
 {<br>
-     echo "Hello world"<br>
+echo "Hello world"<br>
 }
 
 Examples 
@@ -104,68 +104,68 @@ A fairly basic plugin for deploying a single artifact:
 coolvastthing.plugin<br>
 coolvastthing()<br>
 {<br>
-     # $PRODUCT is the same as the function: coolvastthing<br>
-     declare WORKDIR="/data"<br>
-     declare DESTDIR="$WORKDIR/$PRODUCT" # /data/coolvastthing<br>
-     declare LOGDIR="${WORKDIR}/logs/${PRODUCT}"<br>
-     declare USER="cvt"<br>
-     declare GROUP="cvt"<br>
-     declare TCID="bt666"<br>
-     declare TCNAME="cool-vast-thing" # the artifact path is different in teamcity so we're using this variable<br>
-     declare PIDFILE="/tmp/${TCNAME}-service.pid"<br>
-     declare TESTPORT="8090"<br>
-     declare TESTURL="http://localhost:${TESTPORT}/healthcheck"
+# $PRODUCT is the same as the function: coolvastthing<br>
+declare WORKDIR="/data"<br>
+declare DESTDIR="$WORKDIR/$PRODUCT" # /data/coolvastthing<br>
+declare LOGDIR="${WORKDIR}/logs/${PRODUCT}"<br>
+declare USER="cvt"<br>
+declare GROUP="cvt"<br>
+declare TCID="bt666"<br>
+declare TCNAME="cool-vast-thing" # the artifact path is different in teamcity so we're using this variable<br>
+declare PIDFILE="/tmp/${TCNAME}-service.pid"<br>
+declare TESTPORT="8090"<br>
+declare TESTURL="http://localhost:${TESTPORT}/healthcheck"
 
-     # take the node out of the load-balancer<br>
-     rm_lb
+# take the node out of the load-balancer<br>
+rm_lb
 
-     # make sure DLDIR, DESTDIR, and LOGDIR all exist and have the right permissions<br>
-     ensuredirs "${DLDIR} ${DESTDIR} ${LOGDIR}" $USER $GROUP
+# make sure DLDIR, DESTDIR, and LOGDIR all exist and have the right permissions<br>
+ensuredirs "${DLDIR} ${DESTDIR} ${LOGDIR}" $USER $GROUP
 
-     # this creates a file ${DESTDIR}/.rollback_version which we'll use to roll back the release if needed<br>
-     createsymlinkrollback ${DESTDIR} ${TCNAME} "-installer"
+# this creates a file ${DESTDIR}/.rollback_version which we'll use to roll back the release if needed<br>
+createsymlinkrollback ${DESTDIR} ${TCNAME} "-installer"
 
-     # find the pid of the current process. If no pidfile is found, we'll look in the process list for a process owned by the user which contains the string<br>
-     # "cp cool-vast-thing". This is a good match for finding our java  processes, which generally contain "-cp <teamcity artifact>"<br>
-     findpid ${PIDFILE} ${USER} "cp ${TCNAME}"
+# find the pid of the current process. If no pidfile is found, we'll look in the process list for a process owned by the user which contains the string<br>
+# "cp cool-vast-thing". This is a good match for finding our java  processes, which generally contain "-cp <teamcity artifact>"<br>
+findpid ${PIDFILE} ${USER} "cp ${TCNAME}"
 
-     # stop the process; ensure it's dead and not listening on it's testport<br>
-     stopservice ${PRODUCT} ${PID}<br>
-     portdie ${TESTPORT}
+# stop the process; ensure it's dead and not listening on it's testport<br>
+stopservice ${PRODUCT} ${PID}<br>
+portdie ${TESTPORT}
 
-     # Download: http://teamcity.vast.com/repository/download/bt666/14277:id/cool-vast-thing/target/cool-vast-thing-1.4.1-SNAPSHOT-14277-installer.tar.gz<br>
-     FILEBASE="${TCNAME}-${RELEASE}-installer"<br>
-     FILENAME="${FILEBASE}.tar.gz"<br>
-     URLPATH="http://${TEAMCITY}/repository/download/${TCID}/${BUILD}:id/target/"<br>
-     fetch ${URLPATH} ${FILENAME} 
+# Download: http://teamcity.vast.com/repository/download/bt666/14277:id/cool-vast-thing/target/cool-vast-thing-1.4.1-SNAPSHOT-14277-installer.tar.gz<br>
+FILEBASE="${TCNAME}-${RELEASE}-installer"<br>
+FILENAME="${FILEBASE}.tar.gz"<br>
+URLPATH="http://${TEAMCITY}/repository/download/${TCID}/${BUILD}:id/target/"<br>
+fetch ${URLPATH} ${FILENAME} 
 
-     # extract the contents of cool-vast-thing-1.4.1-SNAPSHOT-14277-installer.tar.gz to /data/coolvastthing/cool-vast-thing-1.4.1-SNAPSHOT-14277-installer<br>
-     extract ${FILENAME} ${DESTDIR}/${FILEBASE} ${USER} ${GROUP}
- 
-     # link the release to current<br>
-     ln -s ${DESTDIR}/${FILEBASE} $DESTDIR/current
+# extract the contents of cool-vast-thing-1.4.1-SNAPSHOT-14277-installer.tar.gz to /data/coolvastthing/cool-vast-thing-1.4.1-SNAPSHOT-14277-installer<br>
+extract ${FILENAME} ${DESTDIR}/${FILEBASE} ${USER} ${GROUP}
 
-     # start the process again<br>
-     echo "OK: restarting service $PRODUCT"<br>
-     service ${PRODUCT} start<br>
-     sleep 2<br>
-     # find the new pid<br>
-     findpid ${PIDFILE} ${USER} "cp ${TCNAME}"<br>
-     # make sure the process starts<br>
-     procstart ${PID}<br>
-     # make sure the port is listening<br>
-     portstart ${TESTPORT}<br>
-     # verify the service is reporting OK on the healthcheck URL<br>
-     urlcheck ${TESTURL}
+# link the release to current<br>
+ln -s ${DESTDIR}/${FILEBASE} $DESTDIR/current
 
-     # clean up after ourselves<br>
-     # remove old releases, leaving only the last two<br>
-     purgeoldreleases ${DESTDIR} ${TCNAME} ${FILEBASE}<br>
-     echo "OK: deleting temporary download dir: ${DLDIR}"<br>
-     rm -rf ${DLDIR}
+# start the process again<br>
+echo "OK: restarting service $PRODUCT"<br>
+service ${PRODUCT} start<br>
+sleep 2<br>
+# find the new pid<br>
+findpid ${PIDFILE} ${USER} "cp ${TCNAME}"<br>
+# make sure the process starts<br>
+procstart ${PID}<br>
+# make sure the port is listening<br>
+portstart ${TESTPORT}<br>
+# verify the service is reporting OK on the healthcheck URL<br>
+urlcheck ${TESTURL}
 
-     # return the system to the load-balancer<br>
-     add_lb<br>
+# clean up after ourselves<br>
+# remove old releases, leaving only the last two<br>
+purgeoldreleases ${DESTDIR} ${TCNAME} ${FILEBASE}<br>
+echo "OK: deleting temporary download dir: ${DLDIR}"<br>
+rm -rf ${DLDIR}
+
+# return the system to the load-balancer<br>
+add_lb<br>
 }
 
 
