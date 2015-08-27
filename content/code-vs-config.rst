@@ -1,11 +1,11 @@
 code vs config
 ##############
-:date: 2015-01-19 03:30
+:date: 2015-08-27 11:12
 :author: looprock
 :category: adventuresinserversitting
 :tags: adventuresinserversitting, devops
 :slug: code-vs-config
-:status: draft
+:status: published
 
 I've given an overviews to many people over the years about how we run deployments at Vast and figured it was time I wrote some of this down. Right or wrong, I've chosen to separate code and system configuration management. Much of that decision stems from the lack of adequate 'push' functionality where systems like puppet and chef are concerned. I wanted to be able to better determine ~when~ code was going to be running on a server than I felt like those tools provided. We use chef as our system configuration management service and rundeck plus a home-grown bash shell framework called vastexec to handle code deployment. 
 
@@ -20,7 +20,7 @@ Vast has a lot of legacy code as well as a continuous pipeline of new services g
 
 Vastexec is composed of two parts. The first is a primary script, which is operations managed and provides a lot of built-in functions ops has battle-tested and engineered. The second part is comprised of plugins, which contain service specific code and are maintained primarily by the developers. Both components are bash based. The primary reason for using bash vs another language is that I was aiming for the lowest common denominator. Almost all our engineers were at least familiar with the command line, so it was much easier to take what they were doing there and codifying it inside a plugin versus forcing them to filter that logic through another language. There is, however, nothing stopping anyone from bundling a script in another language and launching that from a plugin. 
 
-** Vastexec options
+**Vastexec options**
 
 | usage: /usr/local/bin/vastexec [options]
 | 
