@@ -31,13 +31,13 @@ All the above are being onboarded and vetted through a private PaaS which spins 
 
 There are lots of people working on continuous delivery pipelines right now. It's been a 'thing' for quite a while and we're finally getting to the point where some companies are trying to productize this. 
 
-Command example:
+**Command example**
 
 vastexec -p coolvastthing -r 1.4.1-SNAPSHOT-14277 -e prod
 
-Possibly useful global variables:
+**Possibly useful global variables**
 
-BUILD - the build ID used in teamcity URL /${BUILD}:id/
+*BUILD* - the build ID used in teamcity URL /${BUILD}:id/
 
 DLDIR - a unique temporary directory defined when vastexec is executed
 
@@ -86,7 +86,9 @@ testexists [file or space delimited list of things to check] - abort if files, d
 urlcheck [healthcheck URL] - looks for a 200 response, but will fall back to looking for "OK" as the first part of the page content.
 
 
-Anatomy of a vastexec plugin:
+Anatomy of a vastexec plugin
+----------------------------
+
 
 A plugin is a shell script comprised of a function. Ideally a plugin will be both idempotent and be able to build an application up from scratch, including actions like creating necessary directories and adding users. It's also important to use the port check, process check, and the urlcheck function to verify the service is in the state it should be at any given step. Using these tools you should be able to keep from putting a broken service in production! 
 The name of the file should be [function].plugin, R.E.:
