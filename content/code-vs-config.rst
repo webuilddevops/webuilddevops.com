@@ -181,8 +181,8 @@ A fairly basic plugin for deploying a single artifact:
 We also use 'base' plugin inheritance to handle similar jobs with slightly different variables:
 
 *frontend-site1.plugin*
-#!/bin/bash
 
+| #!/bin/bash
 | frontend-site1()
 | { 
 |	declare TCID="frontend_site1"
