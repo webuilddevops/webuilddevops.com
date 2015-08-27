@@ -187,9 +187,9 @@ We also use 'base' plugin inheritance to handle similar jobs with slightly diffe
 | #!/bin/bash
 | frontend-site1()
 | { 
-|	declare TCID="frontend_site1"
-|	declare TESTPORT="9090"
-|	source frontend-base.sh
+| declare TCID="frontend_site1"
+| declare TESTPORT="9090"
+| source frontend-base.sh
 |} 
 
 
