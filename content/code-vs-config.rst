@@ -178,9 +178,11 @@ A fairly basic plugin for deploying a single artifact:
 | add_lb
 | }
 
+
 We also use 'base' plugin inheritance to handle similar jobs with slightly different variables:
 
 *frontend-site1.plugin*
+
 
 | #!/bin/bash
 | frontend-site1()
@@ -189,6 +191,7 @@ We also use 'base' plugin inheritance to handle similar jobs with slightly diffe
 |	declare TESTPORT="9090"
 |	source frontend-base.sh
 |} 
+
 
 Feel free to hit me up with any further questions! doug at webuilddevops 
 
