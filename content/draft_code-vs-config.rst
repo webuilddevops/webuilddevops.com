@@ -103,70 +103,71 @@ Examples
 A fairly basic plugin for deploying a single artifact:
 
 coolvastthing.plugin
+.. code-block:: shell
 coolvastthing()
 {
-# $PRODUCT is the same as the function: coolvastthing
-declare WORKDIR="/data"
-declare DESTDIR="$WORKDIR/$PRODUCT" # /data/coolvastthing
-declare LOGDIR="${WORKDIR}/logs/${PRODUCT}"
-declare USER="cvt"
-declare GROUP="cvt"
-declare TCID="bt666"
-declare TCNAME="cool-vast-thing" # the artifact path is different in teamcity so we're using this variable
-declare PIDFILE="/tmp/${TCNAME}-service.pid"
-declare TESTPORT="8090"
-declare TESTURL="http://localhost:${TESTPORT}/healthcheck"
+	# $PRODUCT is the same as the function: coolvastthing
+	declare WORKDIR="/data"
+	declare DESTDIR="$WORKDIR/$PRODUCT" # /data/coolvastthing
+	declare LOGDIR="${WORKDIR}/logs/${PRODUCT}"
+	declare USER="cvt"
+	declare GROUP="cvt"
+	declare TCID="bt666"
+	declare TCNAME="cool-vast-thing" # the artifact path is different in teamcity so we're using this variable
+	declare PIDFILE="/tmp/${TCNAME}-service.pid"
+	declare TESTPORT="8090"
+	declare TESTURL="http://localhost:${TESTPORT}/healthcheck"
 
-# take the node out of the load-balancer
-rm_lb
+	# take the node out of the load-balancer
+	rm_lb
 
-# make sure DLDIR, DESTDIR, and LOGDIR all exist and have the right permissions
-ensuredirs "${DLDIR} ${DESTDIR} ${LOGDIR}" $USER $GROUP
+	# make sure DLDIR, DESTDIR, and LOGDIR all exist and have the right permissions
+	ensuredirs "${DLDIR} ${DESTDIR} ${LOGDIR}" $USER $GROUP
 
-# this creates a file ${DESTDIR}/.rollback_version which we'll use to roll back the release if needed
-createsymlinkrollback ${DESTDIR} ${TCNAME} "-installer"
+	# this creates a file ${DESTDIR}/.rollback_version which we'll use to roll back the release if needed
+	createsymlinkrollback ${DESTDIR} ${TCNAME} "-installer"
 
-# find the pid of the current process. If no pidfile is found, we'll look in the process list for a process owned by the user which contains the string
-# "cp cool-vast-thing". This is a good match for finding our java  processes, which generally contain "-cp <teamcity artifact>"
-findpid ${PIDFILE} ${USER} "cp ${TCNAME}"
+	# find the pid of the current process. If no pidfile is found, we'll look in the process list for a process owned by the user which contains the string
+	# "cp cool-vast-thing". This is a good match for finding our java  processes, which generally contain "-cp <teamcity artifact>"
+	findpid ${PIDFILE} ${USER} "cp ${TCNAME}"
 
-# stop the process; ensure it's dead and not listening on it's testport
-stopservice ${PRODUCT} ${PID}
-portdie ${TESTPORT}
+	# stop the process; ensure it's dead and not listening on it's testport
+	stopservice ${PRODUCT} ${PID}
+	portdie ${TESTPORT}
 
-# Download: http://teamcity.vast.com/repository/download/bt666/14277:id/cool-vast-thing/target/cool-vast-thing-1.4.1-SNAPSHOT-14277-installer.tar.gz
-FILEBASE="${TCNAME}-${RELEASE}-installer"
-FILENAME="${FILEBASE}.tar.gz"
-URLPATH="http://${TEAMCITY}/repository/download/${TCID}/${BUILD}:id/target/"
-fetch ${URLPATH} ${FILENAME} 
+	# Download: http://teamcity.vast.com/repository/download/bt666/14277:id/cool-vast-thing/target/cool-vast-thing-1.4.1-SNAPSHOT-14277-installer.tar.gz
+	FILEBASE="${TCNAME}-${RELEASE}-installer"
+	FILENAME="${FILEBASE}.tar.gz"
+	URLPATH="http://${TEAMCITY}/repository/download/${TCID}/${BUILD}:id/target/"
+	fetch ${URLPATH} ${FILENAME} 
 
-# extract the contents of cool-vast-thing-1.4.1-SNAPSHOT-14277-installer.tar.gz to /data/coolvastthing/cool-vast-thing-1.4.1-SNAPSHOT-14277-installer
-extract ${FILENAME} ${DESTDIR}/${FILEBASE} ${USER} ${GROUP}
+	# extract the contents of cool-vast-thing-1.4.1-SNAPSHOT-14277-installer.tar.gz to /data/coolvastthing/cool-vast-thing-1.4.1-SNAPSHOT-14277-installer
+	extract ${FILENAME} ${DESTDIR}/${FILEBASE} ${USER} ${GROUP}
 
-# link the release to current
-ln -s ${DESTDIR}/${FILEBASE} $DESTDIR/current
+	# link the release to current
+	ln -s ${DESTDIR}/${FILEBASE} $DESTDIR/current
 
-# start the process again
-echo "OK: restarting service $PRODUCT"
-service ${PRODUCT} start
-sleep 2
-# find the new pid
-findpid ${PIDFILE} ${USER} "cp ${TCNAME}"
-# make sure the process starts
-procstart ${PID}
-# make sure the port is listening
-portstart ${TESTPORT}
-# verify the service is reporting OK on the healthcheck URL
-urlcheck ${TESTURL}
+	# start the process again
+	echo "OK: restarting service $PRODUCT"
+	service ${PRODUCT} start
+	sleep 2
+	# find the new pid
+	findpid ${PIDFILE} ${USER} "cp ${TCNAME}"
+	# make sure the process starts
+	procstart ${PID}
+	# make sure the port is listening
+	portstart ${TESTPORT}
+	# verify the service is reporting OK on the healthcheck URL
+	urlcheck ${TESTURL}
 
-# clean up after ourselves
-# remove old releases, leaving only the last two
-purgeoldreleases ${DESTDIR} ${TCNAME} ${FILEBASE}
-echo "OK: deleting temporary download dir: ${DLDIR}"
-rm -rf ${DLDIR}
+	# clean up after ourselves
+	# remove old releases, leaving only the last two
+	purgeoldreleases ${DESTDIR} ${TCNAME} ${FILEBASE}
+	echo "OK: deleting temporary download dir: ${DLDIR}"
+	rm -rf ${DLDIR}
 
-# return the system to the load-balancer
-add_lb
+	# return the system to the load-balancer
+	add_lb
 }
 
 
