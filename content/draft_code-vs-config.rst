@@ -95,7 +95,7 @@ hello.plugin
 
 | hello() 
 | { 
-| 	echo "Hello world"
+|     echo "Hello world"
 | }
 
 Examples 
