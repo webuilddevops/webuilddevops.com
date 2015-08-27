@@ -93,10 +93,10 @@ The name of the file should be [function].plugin, R.E.:
 
 hello.plugin
 
-hello() |br|
-{ |br|
-echo "Hello world" |br|
-}
+| hello() 
+| { 
+| 	echo "Hello world"
+| }
 
 Examples 
 
