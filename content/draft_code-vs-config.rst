@@ -93,12 +93,9 @@ The name of the file should be [function].plugin, R.E.:
 
 hello.plugin
 
-hello()
-.. |br| raw:: html
-{
-.. |br| raw:: html
-echo "Hello world"
-.. |br| raw:: html
+hello()|br|
+{|br|
+echo "Hello world"|br|
 }
 
 Examples 
