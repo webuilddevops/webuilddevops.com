@@ -5,7 +5,7 @@ Required Reading – 2015-08-26
 :category: requiredreading
 :tags: devops, requiredreading
 :slug: required-reading-2015-08-26
-:status: draft
+:status: published
 
 http://www.martinfowler.com/bliki/StranglerApplication.html
 
@@ -72,3 +72,5 @@ https://developer.rackspace.com/blog/ansible-and-docker/
 http://thenewstack.io/are-docker-users-migrating-to-ansible-and-away-from-puppet-and-chef/
 
 http://bitjudo.com/blog/2014/03/13/building-efficient-dockerfiles-node-dot-js/
+
+https://twitter.com/jessiecliu/status/627279403387592704/photo/1
