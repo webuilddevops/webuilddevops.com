@@ -45,7 +45,7 @@ DSTAMP - The current date in the format: YYYYMMDD
 
 TEAMCITY - the teamcity server
 
-Global functions 
+**Global functions**
 
 add_lb - Add a system back to the load-balanced pool
 
