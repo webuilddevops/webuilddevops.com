@@ -9,5 +9,7 @@ Cloudy with a chance
 
 describe rational for going w/ cloudstack
 
+talk about cloudui some
+
 
 .. include:: looprock_disqus.txt
