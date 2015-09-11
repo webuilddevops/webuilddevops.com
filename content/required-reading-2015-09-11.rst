@@ -5,7 +5,7 @@ Required Reading – 2015-09-11
 :category: requiredreading
 :tags: devops, requiredreading
 :slug: required-reading-2015-09-11
-:status: draft
+:status: published
 
 http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#inline-markup
 
