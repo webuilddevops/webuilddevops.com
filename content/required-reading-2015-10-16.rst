@@ -1,11 +1,11 @@
 Required Reading – 2015-10-16
 #############################
-:date: 2015-10-16 15:40
+:date: 2015-10-16 10:20
 :author: looprock
 :category: requiredreading
 :tags: devops, requiredreading
 :slug: required-reading-2015-10-16
-:status: draft
+:status: published
 
 http://jordanorelli.com/post/31533769172/why-i-went-from-python-to-go-and-not-nodejs
 
@@ -39,9 +39,9 @@ http://keepingitclassless.net/2015/06/mq-rabbitmq-go-python/
 
 .. youtube:: lJ8ydIuPFeU
 
-http://pypy.org
-
 .. youtube:: 0tUrbf6Uzu8
+
+http://pypy.org
 
 http://pypyjs.org
 
