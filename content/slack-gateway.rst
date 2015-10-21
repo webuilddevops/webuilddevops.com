@@ -5,7 +5,7 @@ slack-gateway
 :category: adventuresinserversitting
 :tags: adventuresinserversitting, devops
 :slug: slack-gateway
-:status: draft
+:status: published
 
 I created a micro gateway for the slack api that supports the default output of logstash's http output plugin. If this sounds handy to you, check it out:
 
