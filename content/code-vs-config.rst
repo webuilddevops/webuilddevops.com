@@ -2,8 +2,8 @@ code vs config
 ##############
 :date: 2015-08-27 11:12
 :author: looprock
-:category: adventuresinserversitting
-:tags: adventuresinserversitting, devops
+:category: defops
+:tags: defops, devops
 :slug: code-vs-config
 :status: published
 

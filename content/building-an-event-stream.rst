@@ -2,8 +2,8 @@ Building an event stream
 ########################
 :date: 2015-11-02 22:35
 :author: looprock
-:category: adventuresinserversitting
-:tags: adventuresinserversitting, devops
+:category: defops
+:tags: defops, devops
 :slug: building-an-event-stream
 :status: published
 

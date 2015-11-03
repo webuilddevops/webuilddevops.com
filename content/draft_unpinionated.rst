@@ -2,8 +2,8 @@ Unpinionated software
 #####################
 :date: 2015-05-07 05:38
 :author: looprock
-:category: adventuresinserversitting
-:tags: adventuresinserversitting, devops
+:category: defops
+:tags: defops, devops
 :slug: unpinionated-software
 :status: draft
 

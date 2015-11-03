@@ -2,8 +2,8 @@ slack-gateway
 ##############
 :date: 2015-10-21 14:01
 :author: looprock
-:category: adventuresinserversitting
-:tags: adventuresinserversitting, devops
+:category: defops
+:tags: defops, devops
 :slug: slack-gateway
 :status: published
 
