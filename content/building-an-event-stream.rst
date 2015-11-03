@@ -28,9 +28,13 @@ Enter slack_gateway_. and friends.  This is my stab at a micro router, built ato
 
 - handle per-channel posting across multiple teams
 
-.. image:: ../images/event_stream.png
+So now we have something like this:
 
-So once I had the gateway up and running and the spice was flow.. I mean, the data was flowing, and a lot of trends started appearing. Trending is awesome if you actually have someone dedicated to observing the data and analyzing trends. We don't have that. It's all searchable and in history in slack which is also nice, but again, that requires someone to go back and look at the data. I started thinking about useful applications for that data beyond real-time correlation, which is useful by itself (Hey, we always see a stack trace on the same cassandra node we get a high Await alert on first, and then it seems to cascade through the other nodes... Pretty great.) I figured since we have a logic capable layer sitting on top of the queue, maybe I should use that to do something interesting. Using a sprinkle of regex and a dash of statsd, I started generating counts of the alerts coming through, providing a nice target for grafana_ to serve up things like the Top 10 most frequent alerts I'm seeing in a given time period in a readily available dashboard.  
+.. |Event Stream Image| image:: https://webuilddevops.com/images/event_stream.png
+
+Once I had the gateway up and running and the spice was flow.. I mean, the data was flowing, and a lot of trends started appearing. Trending is awesome if you actually have someone dedicated to observing the data and analyzing trends. We don't have that. It's all searchable and in history in slack which is also nice, but again, that requires someone to go back and look at the data. I started thinking about useful applications for that data beyond real-time correlation, which is useful by itself (Hey, we always see a stack trace on the same cassandra node we get a high Await alert on first, and then it seems to cascade through the other nodes... Pretty great.) I figured since we have a logic capable layer sitting on top of the queue, maybe I should use that to do something interesting. Using a sprinkle of regex and a dash of statsd, I started generating counts of the alerts coming through, providing a nice target for grafana_ to serve up things like the Top 10 most frequent alerts I'm seeing in a given time period in a readily available dashboard.  
+
+.. |Grafana 10 most frequent alerts| image:: https://webuilddevops.com/images/10_most_frequent_alerts.png
 
 .. _grafana: http://grafana.org
 
