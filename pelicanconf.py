@@ -10,7 +10,11 @@ PROFILE_IMAGE_URL = 'https://webuilddevops.com/images/snake-40427_640.png'
 TAGLINE = 'We build DevOps'
 
 PATH = 'content'
-STATIC_PATHS = ['images']
+STATIC_PATHS = ['images', 'extra/robots.txt']
+
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+}
 
 TIMEZONE = 'America/Chicago'
 
