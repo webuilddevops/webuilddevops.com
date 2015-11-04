@@ -14,9 +14,9 @@ STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico', 'extra/apple-
 
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
-    'extra/favicon.ico': {'path': 'favicon.ico'}
-    'extra/apple-touch-icon-precomposed.png': {'path': 'apple-touch-icon-precomposed.png'}
-    'extra/apple-touch-icon.png': {'path': 'apple-touch-icon.png'}
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/apple-touch-icon-precomposed.png': {'path': 'apple-touch-icon-precomposed.png'},
+    'extra/apple-touch-icon.png': {'path': 'apple-touch-icon.png'},
 }
 
 TIMEZONE = 'America/Chicago'
