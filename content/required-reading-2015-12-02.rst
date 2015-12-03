@@ -5,7 +5,7 @@ Required Reading – 2015-12-02
 :category: requiredreading
 :tags: devops, requiredreading
 :slug: required-reading-2015-12-02
-:status: draft
+:status: published
 
 .. youtube:: 7CZFpHUPqXw
 
