@@ -39,8 +39,6 @@ http://keepingitclassless.net/2015/06/mq-rabbitmq-go-python/
 
 .. youtube:: lJ8ydIuPFeU
 
-.. youtube:: 0tUrbf6Uzu8
-
 http://pypy.org
 
 http://pypyjs.org
