@@ -5,7 +5,7 @@ Required Reading – 2016-01-28
 :category: requiredreading
 :tags: devops, requiredreading
 :slug: required-reading-2016-01-28
-:status: draft
+:status: published
 
 http://batsh.org/
 
