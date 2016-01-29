@@ -9,3 +9,4 @@ pelican -t pure content
 cd output && python -m pelican.server
 
 the 'real' server runs 'make publish' so you can use distict values for pelican config vs publish config
+cd /Users/dland/virtualenv/pelican/lib/python2.7/site-packages/pelican/themes/pure/static
