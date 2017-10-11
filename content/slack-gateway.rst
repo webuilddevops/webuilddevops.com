@@ -1,7 +1,7 @@
 slack-gateway
 ##############
 :date: 2015-10-21 14:01
-:author: looprock
+:author: dougland
 :category: defops
 :tags: defops, devops
 :slug: slack-gateway
@@ -9,6 +9,5 @@ slack-gateway
 
 I created a micro gateway for the slack api that supports the default output of logstash's http output plugin. If this sounds handy to you, check it out:
 
-https://github.com/looprock/slack-gateway
+https://github.com/dougland/slack-gateway
 
-.. include:: looprock_disqus.txt

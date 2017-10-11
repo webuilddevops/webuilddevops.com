@@ -1,7 +1,7 @@
 Required Listening
 ##################
 :date: 2015-03-25 12:33
-:author: looprock
+:author: dougland
 :category: resources
 :tags: devops, podcasts, resources
 :slug: required-listening
@@ -25,4 +25,3 @@ informative and entertaining:
 `The Goat Farm <http://goatcan.do/>`__
 
 
-.. include:: looprock_disqus.txt

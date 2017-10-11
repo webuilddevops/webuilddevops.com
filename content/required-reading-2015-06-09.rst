@@ -1,77 +1,82 @@
 Required Reading – 2015-06-09
 #############################
 :date: 2015-06-09 19:13
-:author: looprock
+:author: dougland
 :category: requiredreading
 :tags: devops, requiredreading
 :slug: required-reading-2015-06-09
 :status: published
 
-http://txt.fliglio.com/2014/07/restful-microservices-in-go-with-gin/
+`REST Microservices in Go with Gin <http://txt.fliglio.com/2014/07/restful-microservices-in-go-with-gin/>`__
 
-https://www.digitalocean.com/community/tutorials/an-introduction-to-kubernetes
+`An Introduction to Kubernetes | DigitalOcean <https://www.digitalocean.com/community/tutorials/an-introduction-to-kubernetes>`__
 
-https://github.com/coreos/etcd/releases
+`Releases · coreos/etcd · GitHub <https://github.com/coreos/etcd/releases>`__
 
-https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/getting-started-guides/ubuntu.md
+`kubernetes/ubuntu.md at master · kubernetes/kubernetes · GitHub <https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/getting-started-guides/ubuntu.md>`__
 
-.. slideshare:: eRBsMkXc8eE1uI
+**Building capacity for open, data-driven science - Grand Rounds**
 
-http://dilbert.com/strip/2008-05-08
+ .. slideshare:: eRBsMkXc8eE1uI
+
+|
+
+
+`Dilbert Comic Strip on 2008-05-08 | Dilbert by Scott Adams <http://dilbert.com/strip/2008-05-08>`__
 
 http://www.pagerduty.com/blog/what-is-chatops/
 
-https://patrickmn.com/security/you-can-be-a-twofactor-hero/
+`Implementing Two-Factor Authentication Is Easier Than It Seems <https://patrickmn.com/security/you-can-be-a-twofactor-hero/>`__
 
-https://lukedrummond.net/2014/02/yubikey-authentication-with-python/
+`YubiKey authentication with Python | code | music | etc <https://lukedrummond.net/2014/02/yubikey-authentication-with-python/>`__
 
-https://pypi.python.org/pypi/django-two-factor-auth
+`django-two-factor-auth 1.3.1 : Python Package Index <https://pypi.python.org/pypi/django-two-factor-auth>`__
 
-http://www.nerdwallet.com/blog/cities/best-places-tech-jobs-2015/
+`Best Places for Tech Jobs - NerdWallet <http://www.nerdwallet.com/blog/cities/best-places-tech-jobs-2015/>`__
 
-https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=34837670
+`Helix + Riemann Exploration - Apache Helix - Apache Software Foundation <https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=34837670>`__
 
 http://blog.supplyframe.com/
 
-http://stackoverflow.com/questions/2271600/elasticsearch-sphinx-lucene-solr-xapian-which-fits-for-which-usage
+`ElasticSearch, Sphinx, Lucene, Solr, Xapian. Which fits for which usage? - Stack Overflow <http://stackoverflow.com/questions/2271600/elasticsearch-sphinx-lucene-solr-xapian-which-fits-for-which-usage>`__
 
-http://blog.mmlac.com/log-transport-with-apache-kafka/
+`Log Transport and Distribution with Apache Kafka 0.8: Part II of âScalable and Robust Logging for Web Applicationsâ - #workHard / partyHard <http://blog.mmlac.com/log-transport-with-apache-kafka/>`__
 
-http://blog.cloudera.com/blog/2014/09/apache-kafka-for-beginners/
+`Apache Kafka for Beginners - Cloudera Engineering Blog <http://blog.cloudera.com/blog/2014/09/apache-kafka-for-beginners/>`__
 
-http://confluent.io/docs/current/kafka/deployment.html
+`Production Deployment — Confluent Platform 2.0.1 documentation <http://confluent.io/docs/current/kafka/deployment.html>`__
 
 https://kafka.apache.org/08/ops.html
 
-http://www.itexico.com/blog/bid/99765/Software-Development-KISS-YAGNI-DRY-3-Principles-to-simplify-your-life
+`KISS, YAGNI & DRY, 3 Principles to Simplify Your Life as Developer <http://www.itexico.com/blog/bid/99765/Software-Development-KISS-YAGNI-DRY-3-Principles-to-simplify-your-life>`__
 
-http://martinfowler.com/bliki/Yagni.html
+`Yagni <http://martinfowler.com/bliki/Yagni.html>`__
 
-http://developerblog.redhat.com/2013/11/19/exploratory-performance-pcp/
+`Exploratory Performance Analysis with Performance Co-Pilot [video] – Red Hat Developer Blog <http://developerblog.redhat.com/2013/11/19/exploratory-performance-pcp/>`__
 
-https://coreos.com/blog/rocket/https://github.com/coreos/rkt
+`CoreOS is building a container runtime, rkt <https://coreos.com/blog/rocket/>`__
 
-http://brains.rabid.co.nz/2015/01/16/knifing-the-chef.html
+`GitHub - coreos/rkt: rkt is an App Container runtime for Linux <https://github.com/coreos/rkt>`__
 
-http://blog.viktorpetersson.com/post/101707677489/the-dangers-of-ufw-docker
+`Rabid Brains - Managing multiple Chef repositories <http://brains.rabid.co.nz/2015/01/16/knifing-the-chef.html>`__
 
-http://serverfault.com/questions/633067/how-do-i-auto-start-docker-containers-at-system-boot
+`Viktor's ramblings • The dangers of UFW + Docker <http://blog.viktorpetersson.com/post/101707677489/the-dangers-of-ufw-docker>`__
 
-http://blog.mccrory.me/2010/12/07/data-gravity-in-the-clouds/
+`ubuntu - How do I auto-start docker containers at system boot? - Server Fault <http://serverfault.com/questions/633067/how-do-i-auto-start-docker-containers-at-system-boot>`__
 
-http://pymbook.readthedocs.org/en/latest/testing.html
+`Data Gravity – in the Clouds | McCrory's Blog <http://blog.mccrory.me/2010/12/07/data-gravity-in-the-clouds/>`__
 
-http://pythonhosted.org/jira/
+`Simple testing in Python — Python for you and me 0.3.alpha1 documentation <http://pymbook.readthedocs.org/en/latest/testing.html>`__
 
-http://www.robgolding.com/blog/2014/05/16/using-slack-with-irssi/
+`1   Python JIRA — jira-python 1.0.4 documentation <http://pythonhosted.org/jira/>`__
 
-https://www.themuse.com/advice/3-sciencebacked-tricks-to-stop-stress-from-ruining-your-life
+`Using Slack with irssi <http://www.robgolding.com/blog/2014/05/16/using-slack-with-irssi/>`__
 
-http://blog.getcrane.com/10-open-source-docker-tools-you-should-be-using
+`How to Stop Being Stressed - How to Destress - The Muse <https://www.themuse.com/advice/3-sciencebacked-tricks-to-stop-stress-from-ruining-your-life>`__
+
+`10 Open Source Docker Tools You Should Be Using <http://blog.getcrane.com/10-open-source-docker-tools-you-should-be-using>`__
 
 https://gigaom.com/2015/02/22/how-spotify-is-ahead-of-the-pack-in-using-containers/
 
-https://communities.cisco.com/community/developer/blog/2015/05/06/devops-days-austin--highlights
+`Developer: DevOps Days Austin - Highlights | Cisco Communities <https://communities.cisco.com/community/developer/blog/2015/05/06/devops-days-austin--highlights>`__
 
-
-.. include:: looprock_disqus.txt

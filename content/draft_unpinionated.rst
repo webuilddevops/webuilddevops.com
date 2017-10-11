@@ -1,7 +1,7 @@
 Unpinionated software
 #####################
 :date: 2015-05-07 05:38
-:author: looprock
+:author: dougland
 :category: defops
 :tags: defops, devops
 :slug: unpinionated-software
@@ -31,4 +31,3 @@ vastexec grew out of confsync, which was written sometime around 2009,
 give or take.
 
 
-.. include:: looprock_disqus.txt

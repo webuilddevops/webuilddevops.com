@@ -1,61 +1,69 @@
 Required Reading - 2015-04-13
 #############################
 :date: 2015-04-13 17:08
-:author: looprock
+:author: dougland
 :category: requiredreading
 :tags: requiredreading
 :slug: required-reading-2015-04-13
 :status: published
 
-http://en.wikipedia.org/wiki/Clarke%27s\_three\_laws
+`Clarke's three laws - Wikipedia, the free encyclopedia <http://en.wikipedia.org/wiki/Clarke%27s_three_laws>`__
 
-https://robots.thoughtbot.com/a-tmux-crash-course
+`A tmux Crash Course <https://robots.thoughtbot.com/a-tmux-crash-course>`__
 
-.. youtube:: M4PFY6RZQHQ
+**Demo of the Machine + Swarm + Compose integration - YouTube**
 
-.. youtube:: zhAT-gZcpBM
+ .. youtube:: M4PFY6RZQHQ
 
-https://docs.docker.com/reference/api/docker\_remote\_api/
+|
 
-http://www.devopsdays.org/events/2015-austin/program/
+
+**Docker Machine Screencast - YouTube**
+
+ .. youtube:: zhAT-gZcpBM
+
+|
+
+
+`Docker: Remote API <https://docs.docker.com/reference/api/docker_remote_api/>`__
+
+`DevOps Days Austin 2015 - program <http://www.devopsdays.org/events/2015-austin/program/>`__
 
 https://docs.docker.com/articles/chef/
 
-https://docs.docker.com/machine/
+`Docker Machine <https://docs.docker.com/machine/>`__
 
-https://docs.docker.com/compose/
+`Docker Compose <https://docs.docker.com/compose/>`__
 
-https://docs.docker.com/swarm/
+`Docker Swarm <https://docs.docker.com/swarm/>`__
 
-https://docs.docker.com/swarm/discovery/
+`Discovery <https://docs.docker.com/swarm/discovery/>`__
 
-http://progrium.com/blog/2014/08/20/consul-service-discovery-with-docker/
+`Consul Service Discovery with Docker :: Jeff Lindsay - Hacker philosopher <http://progrium.com/blog/2014/08/20/consul-service-discovery-with-docker/>`__
 
-https://github.com/progrium/docker-consul
+`GitHub - gliderlabs/docker-consul: Dockerized Consul <https://github.com/progrium/docker-consul>`__
 
-http://progrium.com/blog/2014/09/10/automatic-docker-service-announcement-with-registrator/
+`Automatic Docker Service Announcement with Registrator :: Jeff Lindsay - Hacker philosopher <http://progrium.com/blog/2014/09/10/automatic-docker-service-announcement-with-registrator/>`__
 
-https://github.com/gliderlabs/registrator
+`GitHub - gliderlabs/registrator: Service registry bridge for Docker with pluggable adapters <https://github.com/gliderlabs/registrator>`__
 
-http://sebgoa.blogspot.com/2015/04/1-command-to-kubernetes-with-docker.html
+`Sebastien Goasguen: 1 command to Kubernetes with Docker compose <http://sebgoa.blogspot.com/2015/04/1-command-to-kubernetes-with-docker.html>`__
 
-https://github.com/pinterest/secor
+`GitHub - pinterest/secor: Secor is a service implementing Kafka log persistence <https://github.com/pinterest/secor>`__
 
 http://engineering.pinterest.com/post/116038532184
 
-http://events.linuxfoundation.org/sites/events/files/slides/apachecon\_remibergsma\_uploaded.pdf
+http://events.linuxfoundation.org/sites/events/files/slides/apachecon_remibergsma_uploaded.pdf
 
-http://events.linuxfoundation.org/events/cloudstack-austin/program/schedule
+`Schedule | CloudStack Austin 2015 | Linux Conferences and Linux Events | The Linux Foundation <http://events.linuxfoundation.org/events/cloudstack-austin/program/schedule>`__
 
-https://docs.chef.io/ohai.html
+`About Ohai — Chef Docs <https://docs.chef.io/ohai.html>`__
 
-https://docs.chef.io/community\_plugin\_ohai.html
+`Community Plugins — Chef Docs <https://docs.chef.io/community_plugin_ohai.html>`__
 
-https://github.com/customink/fauxhai
+`GitHub - customink/fauxhai: Easily mock full ohai data <https://github.com/customink/fauxhai>`__
 
-https://docs.chef.io/ohai\_custom.html
+`Ohai Custom Plugins — Chef Docs <https://docs.chef.io/ohai_custom.html>`__
 
-https://github.com/csexton/ohai-plugin-howto
+`GitHub - csexton/ohai-plugin-howto: A short how-to for creating ohai plugins <https://github.com/csexton/ohai-plugin-howto>`__
 
-
-.. include:: looprock_disqus.txt

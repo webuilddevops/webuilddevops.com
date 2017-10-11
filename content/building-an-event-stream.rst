@@ -1,7 +1,7 @@
 Building an event stream
 ########################
 :date: 2015-11-02 22:35
-:author: looprock
+:author: dougland
 :category: defops
 :tags: defops, devops
 :slug: building-an-event-stream
@@ -9,7 +9,7 @@ Building an event stream
 
 I'll admit it; I have a bit of an event stream fetish. I've been toying with getting all the state in one place for a good 10 years now. The latest version of OpLog_ is the metamorphosis of the original Oplog, which was built on straight python CGI and mysql and email as the ONLY vector of input, but many outputs: UI, RSS, even clients written for windows and mac using growl and.. whatever that windows growl thing was. Of course, any time you try to create an event stream/archive, you run into all kinds of issues; space constraints, indexing issues, and UI to name a few. My current company uses google business for our mail and to ensure everything was getting to where it needed to be, I ended up popped mail from a centralized gmail box and jamming it into elasticsearch, which stood under a thin RSS layer. Any time you try to get everything into one place, things get a little Rube Goldberg.
 
-.. _OpLog: https://github.com/looprock/OpLog
+.. _OpLog: https://github.com/dougland/OpLog
 
 We have a long and sordid history at my company, including a LOT of legacy code and process that's still in place, so when I talk about "all of the things", I'm talking about input from nagios, sensu, zabbix, seyren, pingdom, logstash, rundeck, and another billion one-off scripts and notifications that have accumulated over time. Yes, we really run 3 tier-1 monitoring systems, but eventually we're planning on consolidating to sensu + flapjack + graphite for alerting, trending and notifications, but that's currently a work in progress. In reality it'll probably take a while to sort out the various cron jobs and other errata that have crept in over time, and if you can't beat 'em.. 
 
@@ -17,7 +17,7 @@ My latest stab at this domain is to simply offload a huge segment of that proble
 
 Enter slack_gateway_. and friends.  This is my stab at a micro router, built atop my favorite micro-framework, bottlepy_, for abstracting some of the things I didn't like about the slack API:
 
-.. _slack_gateway: https://github.com/looprock/slack-gateway
+.. _slack_gateway: https://github.com/dougland/slack-gateway
 .. _bottlepy: http://bottlepy.org
 
 - submit to multiple channels from a single endpoint
@@ -44,4 +44,3 @@ Once I had the gateway up and running and the spice was flow.. I mean, the data 
 
 I'm only about a week in on this endeavor but like any fun project the rewards are already evident. I'd like to encourage anyone who will listen, get everything together and turn it into something meaningful. 
 
-.. include:: looprock_disqus.txt

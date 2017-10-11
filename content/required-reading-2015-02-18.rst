@@ -1,39 +1,36 @@
 Required Reading: 2015-02-18
 ############################
 :date: 2015-02-18 21:40
-:author: looprock
+:author: dougland
 :category: requiredreading
 :tags: requiredreading
 :slug: required-reading-2015-02-18
 :status: published
 
-https://jensrantil.github.io/salt-vs-ansible.html
+`Jens Rantil's Hideout <https://jensrantil.github.io/salt-vs-ansible.html>`__
 
-https://www.domenkozar.com/2014/03/11/why-puppet-chef-ansible-arent-good-enough-and-we-can-do-better/
+`Domen KoÅ¾ar <https://www.domenkozar.com/2014/03/11/why-puppet-chef-ansible-arent-good-enough-and-we-can-do-better/>`__
 
-http://www.allthingsdistributed.com/2015/02/exploring-complex-networks.html
+`Back-to-Basics Weekend Reading - Exploring Complex Networks - All Things Distributed <http://www.allthingsdistributed.com/2015/02/exploring-complex-networks.html>`__
 
-http://ryandlane.com/blog/2014/08/04/moving-away-from-puppet-saltstack-or-ansible/
+`Moving Away From Puppet: SaltStack Or Ansible? | Ryan D Lane <http://ryandlane.com/blog/2014/08/04/moving-away-from-puppet-saltstack-or-ansible/>`__
 
-http://docs.chef.io/data\_bags.html
+http://docs.chef.io/data_bags.html
 
-http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html
+`AWS::AutoScaling::AutoScalingGroup - AWS CloudFormation <http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html>`__
 
-http://www.infoq.com/news/2015/02/cfgmgmtcamp-containers-future
+`Config Management Camp: Containers and Configuration Management Future <http://www.infoq.com/news/2015/02/cfgmgmtcamp-containers-future>`__
 
-http://apmdigest.com/application-performance-management-devops-ca-technologies-epic
+`Selecting the Right APM for DevOps - An "EPIC" Decision | DEVOPSdigest <http://apmdigest.com/application-performance-management-devops-ca-technologies-epic>`__
 
-http://blogs.cisco.com/datacenter/seven-ways-to-move-to-the-cloud
+`Seven Ways to Move to the Cloud <http://blogs.cisco.com/datacenter/seven-ways-to-move-to-the-cloud>`__
 
 http://blog.gravitant.com/2015/02/17/cloud-management-platform-maturity-model/
 
-https://docs.chef.io/plugin\_knife\_container.html
+https://docs.chef.io/plugin_knife_container.html
 
-http://blog.xebia.com/2014/06/14/combining-salt-with-docker/
+`Combining Salt with Docker | Xebia Blog <http://blog.xebia.com/2014/06/14/combining-salt-with-docker/>`__
 
-https://www.packtpub.com/books/content/docker-container-management-with-saltstack
+`Docker Container Management at Scale with SaltStack | PACKT Books <https://www.packtpub.com/books/content/docker-container-management-with-saltstack>`__
 
-http://thomason.io/automating-application-deployments-across-clouds-with-salt-and-docker/
-
-
-.. include:: looprock_disqus.txt
+`Automating application deployments across clouds with Salt and Docker – thomason.io <http://thomason.io/automating-application-deployments-across-clouds-with-salt-and-docker/>`__

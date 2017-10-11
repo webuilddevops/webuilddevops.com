@@ -1,7 +1,7 @@
 code vs config
 ##############
 :date: 2015-08-27 11:12
-:author: looprock
+:author: dougland
 :category: defops
 :tags: defops, devops
 :slug: code-vs-config
@@ -192,4 +192,3 @@ We also use 'base' plugin inheritance to handle similar jobs with slightly diffe
 
 Feel free to hit me up with any further questions! doug at webuilddevops 
 
-.. include:: looprock_disqus.txt

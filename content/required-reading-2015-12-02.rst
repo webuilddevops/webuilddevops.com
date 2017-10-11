@@ -1,150 +1,171 @@
 Required Reading – 2015-12-02
 #############################
 :date: 2015-12-02 22:35
-:author: looprock
+:author: dougland
 :category: requiredreading
 :tags: devops, requiredreading
 :slug: required-reading-2015-12-02
 :status: published
 
-.. youtube:: 7CZFpHUPqXw
+**AWS re:Invent 2015 | (DVO317) From Local Docker Development to Production Deployments - YouTube**
 
-http://jensrantil.github.io/im-a-state-engineer-are-you-too.html
+ .. youtube:: 7CZFpHUPqXw
 
-http://bosh.cloudfoundry.org/docs/problems.html
+|
+
+
+`Jens Rantil's Hideout <http://jensrantil.github.io/im-a-state-engineer-are-you-too.html>`__
+
+`bosh <http://bosh.cloudfoundry.org/docs/problems.html>`__
 
 http://blog.pivotal.io/pivotal-cloud-foundry/products/managing-stateful-docker-containers-with-cloud-foundry-bosh
 
-https://www.nginx.com/resources/wiki/start/topics/depth/ifisevil/
+`If Is Evil | NGINX <https://www.nginx.com/resources/wiki/start/topics/depth/ifisevil/>`__
 
-http://blog.ingineering.it/post/131687591759/revisiting-empathy
+`Ingineering.IT — Revisiting Empathy <http://blog.ingineering.it/post/131687591759/revisiting-empathy>`__
 
-http://www.codewars.com
+`Train with Programming Challenges/Kata | Codewars <http://www.codewars.com>`__
 
-https://project-fifo.net
+`Project FiFo Cloud Orchestration <https://project-fifo.net>`__
 
-http://leo-project.net/leofs/
+`LeoFS - The Lion of Storage Systems <http://leo-project.net/leofs/>`__
 
-https://gitlab.com/joshbeard/sensu-slack
+`Josh Beard / sensu-slack · GitLab <https://gitlab.com/joshbeard/sensu-slack>`__
 
-http://tajo.apache.org
+`Tajo - A Big Data Warehouse System on Hadoop - <http://tajo.apache.org>`__
 
-https://auxesis.github.io/cucumber-nagios/
+`cucumber-nagios <https://auxesis.github.io/cucumber-nagios/>`__
 
-http://www.shapeblue.com/apache-cloudstack-certification-accel/
+`Apache CloudStack Certification (ACCEL) | The CloudStack Company <http://www.shapeblue.com/apache-cloudstack-certification-accel/>`__
 
-http://www.heavywater.io/blog/2015/10/28/automacon-1-0-release-notes/
+`AutomaCon 1.0 Release Notes | Heavy Water <http://www.heavywater.io/blog/2015/10/28/automacon-1-0-release-notes/>`__
 
 http://conferences2.sigcomm.org/imc/2015/papers/p27.pdf
 
-http://blog.packagecloud.io/eng/2015/09/15/automacon-infrastructure-as-code-might-be-literally-impossible/
+`Infrastructure as code might be literally impossible <http://blog.packagecloud.io/eng/2015/09/15/automacon-infrastructure-as-code-might-be-literally-impossible/>`__
 
-.. slideshare:: xw8oHWjQKQHthj
+**Vik Bhatti (Beamly) - Service Discovery for DevOps**
 
-.. slideshare:: 4MZN2IMeUHjsPZ
+ .. slideshare:: xw8oHWjQKQHthj
 
-https://aws.amazon.com/blogs/aws/new-ec2-run-command-remote-instance-management-at-scale/
+|
+
+
+**Who • VP of Engineering**
+
+ .. slideshare:: 4MZN2IMeUHjsPZ
+
+|
+
+
+`New EC2 Run Command – Remote Instance Management at Scale | AWS Official Blog <https://aws.amazon.com/blogs/aws/new-ec2-run-command-remote-instance-management-at-scale/>`__
 
 https://blog.serverdensity.com/what-ive-learnt-from-using-ansible-exclusively-for-2-years/
 
-http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-recover.html
+`Recover Your Instance - Amazon Elastic Compute Cloud <http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-recover.html>`__
 
-https://github.com/getpelican/pelican/wiki/Tips-n-Tricks
+`Tips n Tricks · getpelican/pelican Wiki · GitHub <https://github.com/getpelican/pelican/wiki/Tips-n-Tricks>`__
 
-http://docs.getpelican.com/en/3.1.1/getting_started.html
+`Getting started — Pelican 3 documentation <http://docs.getpelican.com/en/3.1.1/getting_started.html>`__
 
-http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
+`reStructuredText Markup Specification <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html>`__
 
-http://goaccess.io
+`GoAccess - Visual Web Log Analyzer <http://goaccess.io>`__
 
-http://blog.dbsmasher.com/2015/11/03/using-sensu-for-dba-tasks/
+`Using Sensu for DBA tasks <http://blog.dbsmasher.com/2015/11/03/using-sensu-for-dba-tasks/>`__
 
-http://theforeman.org/introduction.html
+`Foreman :: Introduction <http://theforeman.org/introduction.html>`__
 
-https://hashicorp.com/blog/atlas-mindset.html/
+`HashiCorp: Atlas Mindset <https://hashicorp.com/blog/atlas-mindset.html/>`__
 
-https://atlas.hashicorp.com/help/intro/use-cases/continuous-deployment-of-immutable-infrastructure
+`Continuous Deployment of Immutable Infrastructure - Help | Atlas by HashiCorp <https://atlas.hashicorp.com/help/intro/use-cases/continuous-deployment-of-immutable-infrastructure>`__
 
-https://puppetlabs.com/presentations/why-everything-just-worst
+`Why Everything is Just the Worst | Puppet Labs <https://puppetlabs.com/presentations/why-everything-just-worst>`__
 
-https://www.vividcortex.com/blog/2015/11/05/nobody-loves-graphite-anymore/
+`Nobody Loves Graphite Anymore <https://www.vividcortex.com/blog/2015/11/05/nobody-loves-graphite-anymore/>`__
 
-http://obfuscurity.com/2015/11/Everybody-Loves-Graphite
+`obfuscurity. - Everybody Loves Graphite <http://obfuscurity.com/2015/11/Everybody-Loves-Graphite>`__
 
-https://github.com/obfuscurity/synthesize
+`GitHub - obfuscurity/synthesize: Easy installer for Graphite and StatsD <https://github.com/obfuscurity/synthesize>`__
 
-https://gowalker.org/github.com/klarna/packer-cloudstack
+`github.com/klarna/packer-cloudstack - Go Walker <https://gowalker.org/github.com/klarna/packer-cloudstack>`__
 
-http://www.dasblinkenlichten.com/kubernetes-101-external-access-into-the-cluster/
+`Kubernetes 101 – External access into the cluster - Das Blinken Lichten <http://www.dasblinkenlichten.com/kubernetes-101-external-access-into-the-cluster/>`__
 
-http://docs.aws.amazon.com/AmazonVPC/latest/GettingStartedGuide/getting-started-create-vpc.html
+`Step 1: Create the VPC - Amazon Virtual Private Cloud <http://docs.aws.amazon.com/AmazonVPC/latest/GettingStartedGuide/getting-started-create-vpc.html>`__
 
-https://github.com/mesos/elasticsearch
+`GitHub - mesos/elasticsearch: Elasticsearch on Mesos <https://github.com/mesos/elasticsearch>`__
 
-https://mesosphere.com/blog/2015/11/10/mesos-nvidia-gpus/
+`Mesosphere and NVIDIA deliver GPU support to Mesos <https://mesosphere.com/blog/2015/11/10/mesos-nvidia-gpus/>`__
 
-https://www.crowdsupply.com/purism/librem-13
+`Librem 13: A Laptop That Respects Your Rights | Crowd Supply <https://www.crowdsupply.com/purism/librem-13>`__
 
-http://rhaas.blogspot.co.uk/2015/11/parallel-sequential-scan-is-committed.html
+`Robert Haas: Parallel Sequential Scan is Committed! <http://rhaas.blogspot.co.uk/2015/11/parallel-sequential-scan-is-committed.html>`__
 
-http://jarche.com/2015/11/a-useful-model/
+`70:20:10 – a useful model <http://jarche.com/2015/11/a-useful-model/>`__
 
-https://labs.spotify.com/2015/11/17/monitoring-at-spotify-introducing-heroic/
+`Monitoring at Spotify: Introducing Heroic | Labs <https://labs.spotify.com/2015/11/17/monitoring-at-spotify-introducing-heroic/>`__
 
-.. slideshare:: on7MeonZnZnM5P
+**Inside the Chef Push Jobs Service - ChefConf 2015**
 
-http://gatling.io/#/
+ .. slideshare:: on7MeonZnZnM5P
 
-http://tsung.erlang-projects.org/
+|
 
-https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-nginx-for-centos-6
 
-http://falconframework.org/
+`Gatling Project, Stress Tool <http://gatling.io/#/>`__
 
-http://www.pnegahdar.com/wheezy-a-no-bullshit-python-micro-web-framework/
+`Tsung <http://tsung.erlang-projects.org/>`__
 
-https://github.com/mozilla/localForage
+`How To Create a SSL Certificate on nginx for CentOS 6 | DigitalOcean <https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-nginx-for-centos-6>`__
 
-https://gitter.im
+`Falcon - The minimalist Python WSGI framework <http://falconframework.org/>`__
 
-http://www.thoughtworks.com/radar/languages-and-frameworks
+`pnegahdar <http://www.pnegahdar.com/wheezy-a-no-bullshit-python-micro-web-framework/>`__
 
-http://www.thoughtworks.com/radar/tools
+`GitHub - mozilla/localForage: Offline storage, improved. Wraps IndexedDB, WebSQL, or localStorage using a simple but powerful API. <https://github.com/mozilla/localForage>`__
 
-http://www.thoughtworks.com/radar/techniques
+`Gitter — Where developers come to talk. <https://gitter.im>`__
 
-http://www.thoughtworks.com/radar/platforms
+`Technology Radar | Emerging Technology Trends for 2016 | ThoughtWorks <http://www.thoughtworks.com/radar/languages-and-frameworks>`__
 
-http://nim-lang.org/
+`Technology Radar | Emerging Technology Trends for 2016 | ThoughtWorks <http://www.thoughtworks.com/radar/tools>`__
 
-https://blog.risingstack.com/the-react-way-getting-started-tutorial/
+`Technology Radar | Emerging Technology Trends for 2016 | ThoughtWorks <http://www.thoughtworks.com/radar/techniques>`__
 
-https://github.com/DisposaBoy/GoSublime
+`Technology Radar | Emerging Technology Trends for 2016 | ThoughtWorks <http://www.thoughtworks.com/radar/platforms>`__
 
-https://supermarket.chef.io/cookbooks/python
+`Nim Programming Language <http://nim-lang.org/>`__
 
-http://thenewstack.io/a-survey-of-5-go-web-frameworks/
+`The React.js Way: Getting Started Tutorial | RisingStack <https://blog.risingstack.com/the-react-way-getting-started-tutorial/>`__
 
-https://github.com/gocraft/web
+`GitHub - DisposaBoy/GoSublime: A  Golang plugin collection for the text editor SublimeText 2 providing code completion and other IDE-like features. <https://github.com/DisposaBoy/GoSublime>`__
 
-http://nilpath.se/building-a-rest-api-in-golang/
+`python versions <https://supermarket.chef.io/cookbooks/python>`__
 
-https://launchschool.com/blog/how-to-install-postgresql-on-a-mac
+`A Survey of 5 Go Web Frameworks - The New Stack <http://thenewstack.io/a-survey-of-5-go-web-frameworks/>`__
 
-https://gist.github.com/lxneng/741932
+`GitHub - gocraft/web: Go Router + Middleware. Your Contexts. <https://github.com/gocraft/web>`__
 
-https://eng.uservoice.com/blog/2015/01/28/introducing-gocraft/dbr/
+`Building a REST API in golang - Christoffer Åhrling <http://nilpath.se/building-a-rest-api-in-golang/>`__
 
-http://stackoverflow.com/questions/12168873/cross-compile-go-on-osx
+`How to Install Postgres Database for Mac OS X <https://launchschool.com/blog/how-to-install-postgresql-on-a-mac>`__
 
-https://www.packer.io/docs/builders/docker.html
+`install PostgreSQL 9 in Mac OSX via Homebrew · GitHub <https://gist.github.com/lxneng/741932>`__
+
+`Introducing gocraft/dbr - UserVoice Engineering <https://eng.uservoice.com/blog/2015/01/28/introducing-gocraft/dbr/>`__
+
+`compiler construction - Cross compile Go on OSX? - Stack Overflow <http://stackoverflow.com/questions/12168873/cross-compile-go-on-osx>`__
+
+`Docker Builder - Packer by HashiCorp <https://www.packer.io/docs/builders/docker.html>`__
 
 https://www.chef.io/solutions/audit-compliance/
 
 https://www.arresteddevops.com/tdi/
 
-http://jtimberman.housepub.org/blog/2015/04/03/chef-audit-mode-introduction/
+`Chef Audit Mode Introduction - jtimberman's Code Blog <http://jtimberman.housepub.org/blog/2015/04/03/chef-audit-mode-introduction/>`__
 
-https://github.com/benwebber/packer-post-processor-vhd
+`GitHub - benwebber/packer-post-processor-vhd: Packer post-processor plugin to produce Virtual Hard Disk (VHD) files <https://github.com/benwebber/packer-post-processor-vhd>`__
 
-https://www.packer.io/docs/provisioners/chef-client.html
+`Chef-Client Provisioner - Packer by HashiCorp <https://www.packer.io/docs/provisioners/chef-client.html>`__
+

@@ -1,52 +1,65 @@
 Required Reading – 2015-10-16
 #############################
 :date: 2015-10-16 10:20
-:author: looprock
+:author: dougland
 :category: requiredreading
 :tags: devops, requiredreading
 :slug: required-reading-2015-10-16
 :status: published
 
-http://jordanorelli.com/post/31533769172/why-i-went-from-python-to-go-and-not-nodejs
+`jordan orelli <http://jordanorelli.com/post/31533769172/why-i-went-from-python-to-go-and-not-nodejs>`__
 
-http://concur.rspace.googlecode.com/hg/talk/concur.html#landing-slide
+`[Concurrency is not Parallelism (it's better)] <http://concur.rspace.googlecode.com/hg/talk/concur.html#landing-slide>`__
 
-http://prometheus.io/docs/operating/storage/
+`Storage | Prometheus <http://prometheus.io/docs/operating/storage/>`__
 
-https://www.ruggedsoftware.org
+`Rugged Software | Are you Rugged? <https://www.ruggedsoftware.org>`__
 
-https://stedolan.github.io/jq/
+`jq <https://stedolan.github.io/jq/>`__
 
-https://github.com/stephen/airsonos
+`GitHub - stephen/airsonos: AirPlay to Sonos <https://github.com/stephen/airsonos>`__
 
-https://slack.zendesk.com/hc/en-us/articles/204509068-Enabling-two-factor-authentication
+`Enabling two-factor authentication – Slack Help Center <https://slack.zendesk.com/hc/en-us/articles/204509068-Enabling-two-factor-authentication>`__
 
-http://www.humblec.com/dropwatch-to-see-where-the-packets-are-dropped-in-kernel-stack/
+`Dropwatch to see where the packets are dropped in kernel stack .. - My Humble Abode <http://www.humblec.com/dropwatch-to-see-where-the-packets-are-dropped-in-kernel-stack/>`__
 
-http://www.cs.unc.edu/~jasleen/Research-passivetcp.htm#Tool
+`Passive TCP Performance Analysis <http://www.cs.unc.edu/~jasleen/Research-passivetcp.htm#Tool>`__
 
 http://blog.takipi.com/7-monitoring-tools-to-prevent-the-next-doomsday/
 
-http://avi.io/blog/2014/12/19/super-useful-real-life-sensu-checks-for-your-app/
+`Super useful real-life sensu checks/alerts for your application -- With Bonus <http://avi.io/blog/2014/12/19/super-useful-real-life-sensu-checks-for-your-app/>`__
 
-http://dev.nuclearrooster.com/2013/07/27/remediation-with-sensu/
+`Remediation with Sensu | <http://dev.nuclearrooster.com/2013/07/27/remediation-with-sensu/>`__
 
-https://imansson.wordpress.com/2012/11/26/why-sensu-is-a-monitoring-router-some-cool-handlers/
+`Why Sensu is a monitoring router – some cool handlers | Ulf Månsson about infrastructure <https://imansson.wordpress.com/2012/11/26/why-sensu-is-a-monitoring-router-some-cool-handlers/>`__
 
-http://goaccess.io
+`GoAccess - Visual Web Log Analyzer <http://goaccess.io>`__
 
 http://keepingitclassless.net/2015/06/mq-rabbitmq-go-python/
 
-.. youtube:: lJ8ydIuPFeU
+**"How NOT to Measure Latency" by Gil Tene - YouTube**
 
-http://pypy.org
+ .. youtube:: lJ8ydIuPFeU
 
-http://pypyjs.org
+|
 
-https://aws.amazon.com/new/reinvent/
+
+`PyPy - Welcome to PyPy <http://pypy.org>`__
+
+**Performance and Lies - Tom Crayford - YouTube**
+
+ .. youtube:: 0tUrbf6Uzu8
+
+|
+
+
+`PyPy.js <http://pypyjs.org>`__
+
+`re:Invent 2015 | New Products & Services <https://aws.amazon.com/new/reinvent/>`__
 
 https://tyk.io
 
-https://github.com/jrudolph/perf-map-agent
+`GitHub - jrudolph/perf-map-agent: A java agent to generate method mappings to use with the linux "perf" tool <https://github.com/jrudolph/perf-map-agent>`__
 
-https://aws.amazon.com/blogs/compute/scaling-amazon-ecs-services-automatically-using-amazon-cloudwatch-and-aws-lambda/
+`Scaling Amazon ECS Services Automatically Using Amazon CloudWatch and AWS Lambda | AWS Compute Blog <https://aws.amazon.com/blogs/compute/scaling-amazon-ecs-services-automatically-using-amazon-cloudwatch-and-aws-lambda/>`__
+

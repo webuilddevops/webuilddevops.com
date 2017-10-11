@@ -1,7 +1,7 @@
 #ourmonitoringsucks
 ###################
 :date: 2015-01-19 03:28
-:author: looprock
+:author: dougland
 :category: defops
 :tags: defops, devops
 :slug: ourmonitoringsucks
@@ -10,4 +10,3 @@
 placeholder describing monitoring strategies
 
 
-.. include:: looprock_disqus.txt

@@ -1,7 +1,7 @@
 Devops Days Austin: So long and thanks for all the fish...
 ##########################################################
 :date: 2015-05-06 04:04
-:author: looprock
+:author: dougland
 :category: miscellaneous
 :tags: austin, devops, devopsdays
 :slug: so-long-and-thanks-for-all-the-fish
@@ -21,4 +21,3 @@ environment <http://www.slideshare.net/DouglasLand/devops-in-a-brownfields-envir
 Enjoy!
 
 
-.. include:: looprock_disqus.txt

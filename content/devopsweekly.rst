@@ -1,7 +1,7 @@
 devopsweekly
 ############
 :date: 2014-06-16 05:17
-:author: looprock
+:author: dougland
 :category: resources
 :tags: devops, mailing list, resources
 :slug: devopsweekly
@@ -12,4 +12,3 @@ a great resource:
 
 http://devopsweekly.com/
 
-.. include:: looprock_disqus.txt

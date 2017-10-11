@@ -1,7 +1,7 @@
 Tossing the caber
 #################
 :date: 2015-06-02 15:43
-:author: looprock
+:author: dougland
 :category: defops
 :tags: defops, devops
 :slug: tossing-the-caber
@@ -79,4 +79,3 @@ ELK FTW
 Graylog2
 
 
-.. include:: looprock_disqus.txt

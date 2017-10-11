@@ -1,107 +1,119 @@
 Required Reading – 2015-06-23
 #############################
 :date: 2015-06-23 19:13
-:author: looprock
+:author: dougland
 :category: requiredreading
 :tags: devops, requiredreading
 :slug: required-reading-2015-06-23
 :status: published
 
-https://packagecloud.io/
+`Hosted repos for Deb, RPM, Python and RubyGem Packages | packagecloud <https://packagecloud.io/>`__
 
-https://github.com/pyinstaller/pyinstaller/wiki
+`Home · pyinstaller/pyinstaller Wiki · GitHub <https://github.com/pyinstaller/pyinstaller/wiki>`__
 
-https://www.ssllabs.com/ssltest/
+`SSL Server Test (Powered by Qualys SSL Labs) <https://www.ssllabs.com/ssltest/>`__
 
-http://velocityconf.com/devops-web-performance-2015
+`DevOps & Web Performance, O'Reilly Velocity Conference, Santa Clara, CA, May 27 - 29, 2015 <http://velocityconf.com/devops-web-performance-2015>`__
 
-http://blog.runscope.com/posts/six-microservices-lessons
+`A Peek Behind the Curtains: Six Lessons from Building a Microservices-led Company — Runscope Blog <http://blog.runscope.com/posts/six-microservices-lessons>`__
 
-http://etherealmind.com/why-firewalls-wont-matter-in-a-few-years/
+`Why Firewalls Won't Matter In A Few Years - EtherealMind <http://etherealmind.com/why-firewalls-wont-matter-in-a-few-years/>`__
 
-http://blog.tutum.co/2015/06/02/immutable-infrastructure-and-containers/
+`Immutable Infrastructure and Containers | Tutum Blog <http://blog.tutum.co/2015/06/02/immutable-infrastructure-and-containers/>`__
 
-https://developer.rackspace.com/blog/the-not-so-sorry-state-of-ssl-in-python/
+`The not-so-sorry state of SSL in Python <https://developer.rackspace.com/blog/the-not-so-sorry-state-of-ssl-in-python/>`__
 
-http://tiebing.blogspot.com/2013/06/golang-ssl-server-and-client-example.html
+`Journey of Life: GOLANG SSL Server and Client example <http://tiebing.blogspot.com/2013/06/golang-ssl-server-and-client-example.html>`__
 
-http://bridge.grumpy-troll.org/2014/05/golang-tls-comodo/
+`Golang, TLS & Comodo : The Grumpy Troll <http://bridge.grumpy-troll.org/2014/05/golang-tls-comodo/>`__
 
-http://www.hydrogen18.com/blog/your-own-pki-tls-golang.html
+`Using your own PKI for TLS in Golang - Eric's Apparatus <http://www.hydrogen18.com/blog/your-own-pki-tls-golang.html>`__
 
-https://blog.twitter.com/2015/flying-faster-with-twitter-heron
+`Flying faster with Twitter Heron | Twitter Blogs <https://blog.twitter.com/2015/flying-faster-with-twitter-heron>`__
 
 https://www.yubico.com/products/yubihsm/
 
 https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/pod-states.md
 
-https://en.wikipedia.org/wiki/Cynefin
+`Cynefin Framework - Wikipedia, the free encyclopedia <https://en.wikipedia.org/wiki/Cynefin>`__
 
 http://cognitive-edge.com/blog/using-not-avoiding-conflict/
 
-http://www.mindtools.com/pages/article/cynefin-framework.htm
+`The Cynefin Framework - Problem-Solving Skills From MindTools.com <http://www.mindtools.com/pages/article/cynefin-framework.htm>`__
 
-http://www.kstoolkit.org/Ritual+Dissent
+`Knowledge Sharing Tools and Methods Toolkit - Ritual Dissent <http://www.kstoolkit.org/Ritual+Dissent>`__
 
-https://www.youtube.com/playlist?list=PL055Epbe6d5Y86GSg3nhUH3o\_v62FGpCI
+https://www.youtube.com/playlist?list=PL055Epbe6d5Y86GSg3nhUH3o_v62FGpCI
 
 https://vimeo.com/devopsdays
 
-.. youtube:: gaFQJaQTXhY
+**Dave Snowden | How not to manage complexity | State of the Net 2013 - YouTube**
 
-https://www.facebook.com/notes/facebook-engineering/making-facebook-self-healing/10150275248698920
+ .. youtube:: gaFQJaQTXhY
 
-https://impythonist.wordpress.com/2015/01/06/ultimate-guide-for-scraping-javascript-rendered-web-pages/
+|
 
-http://blog.circleci.com/its-the-future/
 
-http://doc.scrapy.org/en/0.24/intro/overview.html
+`Making Facebook Self-Healing <https://www.facebook.com/notes/facebook-engineering/making-facebook-self-healing/10150275248698920>`__
 
-http://celery.readthedocs.org/en/latest/userguide/monitoring.html#flower-real-time-celery-web-monitor
+`Ultimate guide for scraping  JavaScript rendered web pages | IMPYTHONIST <https://impythonist.wordpress.com/2015/01/06/ultimate-guide-for-scraping-javascript-rendered-web-pages/>`__
 
-http://blog.scrapinghub.com/2015/03/02/handling-javascript-in-scrapy-with-splash/
+`It's The Future <http://blog.circleci.com/its-the-future/>`__
 
-http://www.reddit.com/r/Python/comments/1xj39b/web\_scraping\_beyond\_beautifulsoup/
+`Scrapy at a glance — Scrapy 0.24.6 documentation <http://doc.scrapy.org/en/0.24/intro/overview.html>`__
 
-https://github.com/jmcarp/robobrowser
+`Monitoring and Management Guide — Celery 3.1.23 documentation <http://celery.readthedocs.org/en/latest/userguide/monitoring.html#flower-real-time-celery-web-monitor>`__
 
-https://github.com/niklasb/dryscrape
+`Handling JavaScript in Scrapy with Splash | The Scrapinghub Blog <http://blog.scrapinghub.com/2015/03/02/handling-javascript-in-scrapy-with-splash/>`__
+
+http://www.reddit.com/r/Python/comments/1xj39b/web_scraping_beyond_beautifulsoup/
+
+`GitHub - jmcarp/robobrowser <https://github.com/jmcarp/robobrowser>`__
+
+`GitHub - niklasb/dryscrape: A lightweight Python library that uses Webkit to enable easy scraping of dynamic, Javascript-heavy web pages <https://github.com/niklasb/dryscrape>`__
 
 http://www.centurylinklabs.com/optimizing-docker-images/
 
-https://hashicorp.com/blog/terraform.html
+`Terraform - HashiCorp <https://hashicorp.com/blog/terraform.html>`__
 
-http://www.thecloudcast.net/2015/06/the-cloudcast-197-tectonic-shifts-at.html
+`The Cloudcast: The Cloudcast #197 - Tectonic Shifts at CoreOS <http://www.thecloudcast.net/2015/06/the-cloudcast-197-tectonic-shifts-at.html>`__
 
-http://www.developer.com/design/a-guide-to-docker-image-optimization.html
+`A Guide to Docker Image Optimization - Developer.com <http://www.developer.com/design/a-guide-to-docker-image-optimization.html>`__
 
-http://blog.etianen.com/blog/2013/06/08/django-querysets/
+`Using Django querysets effectively | And then it crashed <http://blog.etianen.com/blog/2013/06/08/django-querysets/>`__
 
-http://jekyllrb.com/
+`Jekyll • Simple, blog-aware, static sites - Transform your plain text into static websites and blogs <http://jekyllrb.com/>`__
 
-http://entrproject.org/
+`entr(1) <http://entrproject.org/>`__
 
-https://github.com/maxkostow/createchromeapp
+`GitHub - maxkostow/createchromeapp: Create a Google Chrome "application" for OSX <https://github.com/maxkostow/createchromeapp>`__
 
 http://niwinz.github.io/django-jinja/
 
-https://dbader.org/blog/setting-up-sublime-text-for-python-development
+`Setting up Sublime Text for Python development – dbader.org <https://dbader.org/blog/setting-up-sublime-text-for-python-development>`__
 
-https://gist.github.com/dsl/a93dea7f1d03551e43e9
+kubernetes under ubuntu setup notes - https://gist.github.com/looprock/a93dea7f1d03551e43e9
 
-https://github.com/airbnb/synapse
+`GitHub - airbnb/synapse: A transparent service discovery framework for connecting an SOA <https://github.com/airbnb/synapse>`__
 
 https://codeascraft.com/2015/01/27/announcing-hound-a-lightning-fast-code-search-tool/
 
-http://wiki.illumos.org/display/illumos/illumos+Home
+`illumos Home - illumos - illumos wiki <http://wiki.illumos.org/display/illumos/illumos+Home>`__
 
-.. vimeo:: 131385889
+**Monitorama PDX 2015 - Kyle Kingsbury - Working with Riemann on Vimeo**
 
-https://www.digitalocean.com/community/tutorials/how-to-install-and-use-graphite-on-an-ubuntu-14-04-server
+ .. vimeo:: 131385889
 
-https://www.chef.io/blog/2010/07/16/what-devops-means-to-me/
-
-.. slideshare:: 2UU5C0fJf2cygQ
+|
 
 
-.. include:: looprock_disqus.txt
+`How To Install and Use Graphite on an Ubuntu 14.04 Server | DigitalOcean <https://www.digitalocean.com/community/tutorials/how-to-install-and-use-graphite-on-an-ubuntu-14-04-server>`__
+
+`What Devops Means to Me | Chef Blog <https://www.chef.io/blog/2010/07/16/what-devops-means-to-me/>`__
+
+**Devops with the S for sharing**
+
+ .. slideshare:: 2UU5C0fJf2cygQ
+
+|
+
