@@ -19,7 +19,7 @@ RELATIVE_URLS = False
 COVER_IMG_URL = 'https://webuilddevops.com/images/snake-40427_640.png'
 PROFILE_IMAGE_URL = 'https://webuilddevops.com/images/snake-40427_640.png'
 TAGLINE = 'We build DevOps'
-HEADER_COVER = 'images/heatmap_histogram_over_time.png'
+HEADER_COVER = 'images/avalanche.png'
 
 PATH = 'content'
 STATIC_PATHS = ['images', 'extra/robots.txt', 'extra/favicon.ico', 'extra/apple-touch-icon-precomposed.png', 'extra/apple-touch-icon.png']
